@@ -29,7 +29,7 @@ class QQ
      */
     public function __construct()
     {
-        $config = \config('oauth.wx');
+        $config = \config('oauth.qq');
         if ($config) {
             $this->config = $config;
         }
